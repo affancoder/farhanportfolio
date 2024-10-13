@@ -547,11 +547,13 @@ td {
 @media (max-width: 768px) {
 	table {
 		width: 100%;
+		flex-grow: 1;
+		overflow-x: scroll;
 	}
 
 	th,
 	td {
-		font-size: 16px;
+		font-size: 1rem;
 		padding: 10px;
 	}
 }
