@@ -56,9 +56,4 @@ GSAP is used to create engaging animations throughout the site. Some key animati
 - **Scroll Animations**: Sections like "Projects", "About", and "Skills" animate into view as you scroll down.
 - **Button Hover Effects**: Interactive buttons with subtle hover animations.
 
-Example code for GSAP animation:
-```javascript
-gsap.from(".hero-text", { duration: 1, y: -100, opacity: 0 });
-gsap.from(".hero-image", { duration: 1.5, x: 100, opacity: 0 });
-
-# Developed by MD AFFAN ASGHAR
+# DEVELOPED BY MD AFFAN ASGHAR
