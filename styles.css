@@ -548,12 +548,16 @@ td {
 	table {
 		width: 100%;
 		flex-grow: 1;
+
+	}
+
+	table tbody {
 		overflow-x: scroll;
 	}
 
 	th,
 	td {
-		font-size: 1rem;
+		font-size: 0.8rem;
 		padding: 10px;
 	}
 }
