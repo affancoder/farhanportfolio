@@ -1,21 +1,10 @@
 # Portfolio Website
 
-This is a responsive portfolio website built for **[Friend's Name]** using **HTML**, **CSS**, **JavaScript**, and **GSAP (GreenSock Animation Platform)**. The website showcases the portfolio, skills, experience, and projects of **[Friend's Name]**. It is designed to be visually appealing, fully responsive, and interactive, providing a seamless user experience across different devices.
-
-## Table of Contents
-
-- [Live Demo](#live-demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [GSAP Animations](#gsap-animations)
-- [File Structure](#file-structure)
-- [Screenshots](#screenshots)
-- [Contact](#contact)
+This is a responsive portfolio website built for **Farhan Jawaid** using **HTML**, **CSS**, **JavaScript**, and **GSAP (GreenSock Animation Platform)**. The website showcases the portfolio, skills, experience, and projects of **[Friend's Name]**. It is designed to be visually appealing, fully responsive, and interactive, providing a seamless user experience across different devices.
 
 ## Live Demo
 
-You can view the live website here: **[Live Demo Link](https://your-live-host-url.com)**
+You can view the live website here: **[Live Demo Link](https://affancoder.github.io/farhanportfolio/)**
 
 ## Features
 
@@ -71,3 +60,5 @@ Example code for GSAP animation:
 ```javascript
 gsap.from(".hero-text", { duration: 1, y: -100, opacity: 0 });
 gsap.from(".hero-image", { duration: 1.5, x: 100, opacity: 0 });
+
+# Developed by MD AFFAN ASGHAR
