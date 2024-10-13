@@ -130,31 +130,38 @@ h3 {
 		animation-timing-function: ease-in;
 		opacity: 0;
 	}
+
 	38% {
 		transform: translateX(0);
 		animation-timing-function: ease-out;
 		opacity: 1;
 	}
+
 	55% {
 		transform: translateX(-68px);
 		animation-timing-function: ease-in;
 	}
+
 	72% {
 		transform: translateX(0);
 		animation-timing-function: ease-out;
 	}
+
 	81% {
 		transform: translateX(-28px);
 		animation-timing-function: ease-in;
 	}
+
 	90% {
 		transform: translateX(0);
 		animation-timing-function: ease-out;
 	}
+
 	95% {
 		transform: translateX(-8px);
 		animation-timing-function: ease-in;
 	}
+
 	100% {
 		transform: translateX(0);
 		animation-timing-function: ease-out;
@@ -165,6 +172,7 @@ h3 {
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
@@ -175,6 +183,7 @@ h3 {
 		transform: translateY(-1000px);
 		opacity: 0;
 	}
+
 	100% {
 		transform: translateY(0);
 		opacity: 1;
@@ -464,6 +473,90 @@ small {
 	line-height: 1.8;
 }
 
+/* Education */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+	background-color: #000;
+	color: #fff;
+}
+
+.education {
+	text-align: center;
+	padding: 50px 20px;
+}
+
+.education h3 {
+	color: #4CAF50;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.education h1 {
+	font-size: 48px;
+	margin: 0;
+	padding: 0;
+}
+
+.education p {
+	font-size: 18px;
+	color: #bfbfbf;
+	margin-bottom: 40px;
+}
+
+h2 {
+	color: #4CAF50;
+	margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+	width: 80%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	margin-bottom: 50px;
+}
+
+table,
+th,
+td {
+	border: 1px solid #4CAF50;
+}
+
+th,
+td {
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+th {
+	background-color: #4CAF50;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+td {
+	background-color: #1c1c1c;
+	font-size: 18px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+	table {
+		width: 100%;
+	}
+
+	th,
+	td {
+		font-size: 16px;
+		padding: 10px;
+	}
+}
+
+
 /*******************
 		MY SKILLS SECTION
 *************************/
@@ -515,6 +608,7 @@ small {
 .project:nth-child(even) a {
 	order: 2;
 }
+
 .project:nth-child(even) div {
 	order: 1;
 }
@@ -849,6 +943,7 @@ small {
 	.project:nth-child(even) img {
 		order: 1;
 	}
+
 	.project:nth-child(even) div {
 		order: 2;
 	}
