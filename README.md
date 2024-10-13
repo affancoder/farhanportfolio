@@ -57,6 +57,6 @@ GSAP is used to create engaging animations throughout the site. Some key animati
 - **Button Hover Effects**: Interactive buttons with subtle hover animations.
 
 ## DEVELOPED BY MD AFFAN ASGHAR
-Computer Science Engineer
-Email: affanasgar8@gmail.com
-@mr_affan15
+- Computer Science Engineer
+- Email: affanasgar8@gmail.com
+- @mr_affan15
